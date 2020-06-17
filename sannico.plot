@@ -39,7 +39,7 @@ secondsInADay = 24 * 60 * 60
 end = GPVAL_X_MAX
 start = GPVAL_X_MAX - 7 * secondsInADay
 
-set title 'San Nico COVID-19: promedio semanal de nuevos confirmados'
+set title 'San Nico COVID-19: promedio semanal de nuevos confirmados (con tendencia lineal)'
 set yrange [0:y5*1.1]
 set ytics 0, 5
 set ylabel 'Casos'
