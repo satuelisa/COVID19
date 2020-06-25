@@ -28,16 +28,16 @@ set autoscale xfix
 
 set arrow 1 from "2020/03/21", graph 0 to "2020/03/21", graph 1 nohead lw 5 lc rgb '#990000' # jornada de sana distancia inicia (no hubo datos 
 set arrow 2 from "2020/06/01", graph 0 to "2020/06/01", graph 1 nohead lw 5 lc rgb '#000099' # reapertura inicia
+set arrow 3 from "2020/06/25", graph 0 to "2020/06/25", graph 1 nohead lw 5 lc rgb '#990000' # freno
 
 show arrow 
 
 set label 1 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",26" textcolor rgb "#cccccc"
 set label 2 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",26" textcolor rgb "#cccccc"
+set label 3 "Freno" at "2020/06/27", graph 0.2 left font ",26" textcolor rgb "#cccccc"
 set label 4 "abril" at "2020/04/15", graph 0.5 center font ",120" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.7 center font ",120" textcolor rgb "#cccccc"
 #set label 6 "junio" at "2020/06/15", graph 0.5 center font ",120" textcolor rgb "#cccccc"
-
-
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
