@@ -34,7 +34,7 @@ show arrow
 
 set label 1 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",26" textcolor rgb "#cccccc"
 set label 2 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",26" textcolor rgb "#cccccc"
-set label 3 "Freno" at "2020/06/27", graph 0.2 left font ",26" textcolor rgb "#cccccc"
+set label 3 "Freno" at "2020/06/27", graph 0.1 left rotate by 90 font ",26" textcolor rgb "#cccccc"
 set label 4 "abril" at "2020/04/15", graph 0.5 center font ",120" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.7 center font ",120" textcolor rgb "#cccccc"
 #set label 6 "junio" at "2020/06/15", graph 0.5 center font ",120" textcolor rgb "#cccccc"
