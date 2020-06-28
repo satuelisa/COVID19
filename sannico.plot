@@ -21,7 +21,7 @@ set xdata time
 set timefmt "%Y/%m/%d"
 set format x "%Y/%m/%d"
 set xtics rotate by 90 right
-set ytics 0, 50
+set ytics 0, 100
 set pointsize 1.2
 set key off
 set autoscale xfix
@@ -32,16 +32,16 @@ set arrow 3 from "2020/06/25", graph 0 to "2020/06/25", graph 1 nohead lw 5 lc r
 
 show arrow 
 
-set label 1 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",26" textcolor rgb "#cccccc"
-set label 2 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",26" textcolor rgb "#cccccc"
-set label 3 "Freno" at "2020/06/27", graph 0.1 left rotate by 90 font ",26" textcolor rgb "#cccccc"
-set label 4 "abril" at "2020/04/15", graph 0.5 center font ",120" textcolor rgb "#cccccc"
-set label 5 "mayo" at "2020/05/15", graph 0.7 center font ",120" textcolor rgb "#cccccc"
-#set label 6 "junio" at "2020/06/15", graph 0.5 center font ",120" textcolor rgb "#cccccc"
+set label 1 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",22" textcolor rgb "#999999"
+set label 2 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",22" textcolor rgb "#999999"
+set label 3 "Freno" at "2020/06/27", graph 0.05 left rotate by 90 font ",22" textcolor rgb "#999999"
+set label 4 "abril" at "2020/04/15", graph 0.3 center font ",80" textcolor rgb "#cccccc"
+set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",80" textcolor rgb "#cccccc"
+set label 6 "junio" at "2020/06/15", graph 0.6 center font ",80" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
-set ytics 0, 100
+set ytics 0, 200
 plot 'sannico.dat' using 1:2 with linespoints lt 1 lw 3 pt 5 lc rgb '#9cb380'
 show label
 
@@ -50,7 +50,7 @@ last = GPVAL_X_MAX
 
 set title 'San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: nuevos confirmados' font ",18"
 set yrange [0:y3*1.1]
-set ytics 0, 5
+set ytics 0, 20
 set ylabel 'Casos'
 set xrange [first:last]
 plot 'sannico.dat' using 1:3 with linespoints lt -1 lw 3 pt 7 lc rgb '#c59849'
@@ -60,7 +60,7 @@ start = last - 7 * secondsInADay
 
 set title 'San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: promedio semanal de nuevos confirmados (con tendencia lineal)' font ",18"
 set yrange [0:y5*1.1]
-set ytics 0, 5
+set ytics 0, 20
 set ylabel 'Casos'
 plot x > start ? b + a * (x - start) / secondsInADay : 1/0 with lines lt -1 lw 16 lc rgb '#a6d49f', \
      'sannico.dat' using 1:5 with linespoints lt -1 lw 3 pt 7 lc rgb '#c73e1d'
