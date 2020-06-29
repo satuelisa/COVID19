@@ -35,9 +35,9 @@ show arrow
 set label 1 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",22" textcolor rgb "#999999"
 set label 2 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",22" textcolor rgb "#999999"
 set label 3 "Freno" at "2020/06/27", graph 0.05 left rotate by 90 font ",22" textcolor rgb "#999999"
-set label 4 "abril" at "2020/04/15", graph 0.3 center font ",80" textcolor rgb "#cccccc"
-set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",80" textcolor rgb "#cccccc"
-set label 6 "junio" at "2020/06/15", graph 0.6 center font ",80" textcolor rgb "#cccccc"
+set label 4 "abril" at "2020/04/15", graph 0.3 center font ",60" textcolor rgb "#cccccc"
+set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",60" textcolor rgb "#cccccc"
+set label 6 "junio" at "2020/06/15", graph 0.6 center font ",60" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
