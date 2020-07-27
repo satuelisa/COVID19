@@ -40,6 +40,7 @@ set label 1004 "Restr. de Mov." at "2020/07/04", graph 0.05 left rotate by 90 fo
 set label 4 "abril" at "2020/04/15", graph 0.3 center font ",60" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",60" textcolor rgb "#cccccc"
 set label 6 "junio" at "2020/06/15", graph 0.6 center font ",60" textcolor rgb "#cccccc"
+set label 7 "julio" at "2020/07/15", graph 0.2 center font ",60" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
