@@ -21,7 +21,7 @@ set xdata time
 set timefmt "%Y/%m/%d"
 set format x "%Y/%m/%d"
 set xtics rotate by 90 right
-set ytics 0, 100
+set ytics 0, 500
 set pointsize 1.2
 set key off
 set autoscale xfix
@@ -35,8 +35,8 @@ show arrow
 
 set label 1001 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",22" textcolor rgb "#999999"
 set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",20" textcolor rgb "#999999"
-set label 1003 "Freno" at "2020/06/27", graph 0.05 left rotate by 90 font ",20" textcolor rgb "#999999"
-set label 1004 "Restr. de Mov." at "2020/07/04", graph 0.05 left rotate by 90 font ",20" textcolor rgb "#999999"
+set label 1003 "Freno" at "2020/06/27", graph 0.05 left rotate by 90 font ",16" textcolor rgb "#999999"
+set label 1004 "R. de Mov." at "2020/07/04", graph 0.05 left rotate by 90 font ",16" textcolor rgb "#999999"
 set label 4 "abril" at "2020/04/15", graph 0.3 center font ",60" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",60" textcolor rgb "#cccccc"
 set label 6 "junio" at "2020/06/15", graph 0.6 center font ",60" textcolor rgb "#cccccc"
@@ -70,7 +70,7 @@ plot x > start ? b + a * (x - start) / secondsInADay : 1/0 with lines lt -1 lw 1
 
 set title 'San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado quincenal (estimado de casos activos)' font ",18"
 set yrange [0:y4*1.1]
-set ytics 0, 100
+set ytics 0, 200
 plot 'sannico.dat' using 1:4 with linespoints lt 2 lw 3 pt 5 lc rgb '#522a27'
 
 
