@@ -44,7 +44,7 @@ set label 7 "julio" at "2020/07/15", graph 0.2 center font ",60" textcolor rgb "
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
-set ytics 0, 200
+set ytics 0, 500
 plot 'sannico.dat' using 1:2 with linespoints lt 1 lw 3 pt 5 lc rgb '#9cb380'
 show label
 
