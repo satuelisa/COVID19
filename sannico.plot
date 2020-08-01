@@ -1,5 +1,5 @@
 set encoding iso_8859_1
-set term postscript eps color size 20cm, 30cm
+set term postscript eps color size 25cm, 30cm
 set output 'sannico.eps'
 set multiplot layout 4, 1
 
@@ -22,7 +22,7 @@ set timefmt "%Y/%m/%d"
 set format x "%Y/%m/%d"
 set xtics rotate by 90 right
 set ytics 0, 500
-set pointsize 1.2
+set pointsize 1.1
 set key off
 set autoscale xfix
 
