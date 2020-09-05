@@ -30,6 +30,7 @@ set arrow 1 from "2020/03/21", graph 0 to "2020/03/21", graph 1 nohead lw 5 lc r
 set arrow 2 from "2020/06/01", graph 0 to "2020/06/01", graph 1 nohead lw 5 lc rgb '#000099' # reapertura inicia
 set arrow 3 from "2020/06/25", graph 0 to "2020/06/25", graph 1 nohead lw 5 lc rgb '#990000' # freno
 set arrow 4 from "2020/07/02", graph 0 to "2020/07/02", graph 1 nohead lw 5 lc rgb '#990000' # freno
+set arrow 5 from "2020/09/05", graph 0 to "2020/09/05", graph 1 nohead lw 5 lc rgb '#990000' # reapertura continua
 
 show arrow 
 
@@ -37,6 +38,8 @@ set label 1001 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 fon
 set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",20" textcolor rgb "#999999"
 set label 1003 "Freno" at "2020/06/27", graph 0.65 left rotate by 90 font ",16" textcolor rgb "#999999"
 set label 1004 "R. de Mov." at "2020/07/04", graph 0.65 left rotate by 90 font ",16" textcolor rgb "#999999"
+set label 1005 "Reapertura" at "2020/09/07", graph 0.55 left rotate by 90 font ",16" textcolor rgb "#999999"
+
 set label 4 "abril" at "2020/04/15", graph 0.25 center font ",45" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",45" textcolor rgb "#cccccc"
 set label 6 "junio" at "2020/06/15", graph 0.6 center font ",45" textcolor rgb "#cccccc"
