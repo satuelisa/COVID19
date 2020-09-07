@@ -21,7 +21,7 @@ set xdata time
 set timefmt "%Y/%m/%d"
 set format x "%Y/%m/%d"
 set xtics rotate by 90 right
-set ytics 0, 500
+set ytics 0, 1000
 set pointsize 1.1
 set key off
 set autoscale xfix
@@ -34,11 +34,11 @@ set arrow 5 from "2020/09/05", graph 0 to "2020/09/05", graph 1 nohead lw 5 lc r
 
 show arrow 
 
-set label 1001 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",22" textcolor rgb "#999999"
-set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",20" textcolor rgb "#999999"
+set label 1001 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",20" textcolor rgb "#999999"
+set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",18" textcolor rgb "#999999"
 set label 1003 "Freno" at "2020/06/27", graph 0.65 left rotate by 90 font ",16" textcolor rgb "#999999"
-set label 1004 "R. de Mov." at "2020/07/04", graph 0.65 left rotate by 90 font ",16" textcolor rgb "#999999"
-set label 1005 "Reapertura" at "2020/09/07", graph 0.55 left rotate by 90 font ",16" textcolor rgb "#999999"
+set label 1004 "R. de Mov." at "2020/07/04", graph 0.65 left rotate by 90 font ",14" textcolor rgb "#999999"
+set label 1005 "Reapertura" at "2020/09/07", graph 0.6 left rotate by 90 font ",14" textcolor rgb "#999999"
 
 set label 4 "abril" at "2020/04/15", graph 0.25 center font ",45" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",45" textcolor rgb "#cccccc"
