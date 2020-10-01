@@ -40,11 +40,12 @@ set label 1003 "Freno" at "2020/06/27", graph 0.65 left rotate by 90 font ",16" 
 set label 1004 "R. de Mov." at "2020/07/04", graph 0.65 left rotate by 90 font ",14" textcolor rgb "#999999"
 set label 1005 "Reapertura" at "2020/09/07", graph 0.6 left rotate by 90 font ",12" textcolor rgb "#999999"
 
-set label 4 "abril" at "2020/04/15", graph 0.25 center font ",45" textcolor rgb "#cccccc"
-set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",45" textcolor rgb "#cccccc"
-set label 6 "junio" at "2020/06/15", graph 0.6 center font ",45" textcolor rgb "#cccccc"
-set label 7 "julio" at "2020/07/15", graph 0.2 center font ",45" textcolor rgb "#cccccc"
-set label 8 "agosto" at "2020/08/15", graph 0.15 center font ",45" textcolor rgb "#cccccc"
+set label 4 "abril" at "2020/04/15", graph 0.25 center font ",25" textcolor rgb "#cccccc"
+set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",25" textcolor rgb "#cccccc"
+set label 6 "junio" at "2020/06/15", graph 0.6 center font ",25" textcolor rgb "#cccccc"
+set label 7 "julio" at "2020/07/15", graph 0.2 center font ",25" textcolor rgb "#cccccc"
+set label 8 "agosto" at "2020/08/15", graph 0.15 center font ",25" textcolor rgb "#cccccc"
+set label 9 "septiembre" at "2020/09/15", graph 0.15 center font ",25" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
