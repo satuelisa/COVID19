@@ -49,7 +49,7 @@ set label 9 "septiembre" at "2020/09/15", graph 0.15 center font ",25" textcolor
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
-set ytics 0, 500
+set ytics 0, 1000
 plot 'sannico.dat' using 1:2 with linespoints lt 1 lw 3 pt 5 lc rgb '#9cb380'
 show label
 
