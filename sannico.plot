@@ -1,5 +1,5 @@
 set encoding iso_8859_1
-set term postscript eps color size 25cm, 30cm
+set term postscript eps color size 40cm, 30cm
 set output 'sannico.eps'
 set multiplot layout 4, 1
 
@@ -46,6 +46,8 @@ set label 6 "junio" at "2020/06/15", graph 0.6 center font ",22" textcolor rgb "
 set label 7 "julio" at "2020/07/15", graph 0.2 center font ",22" textcolor rgb "#cccccc"
 set label 8 "agosto" at "2020/08/15", graph 0.15 center font ",22" textcolor rgb "#cccccc"
 set label 9 "septiembre" at "2020/09/15", graph 0.15 center font ",22" textcolor rgb "#cccccc"
+set label 10 "octubre" at "2020/10/15", graph 0.15 center font ",22" textcolor rgb "#cccccc"
+set label 11 "noviembre" at "2020/11/15", graph 0.10 center font ",22" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
