@@ -31,6 +31,7 @@ set arrow 2 from "2020/06/01", graph 0 to "2020/06/01", graph 1 nohead lw 5 lc r
 set arrow 3 from "2020/06/25", graph 0 to "2020/06/25", graph 1 nohead lw 5 lc rgb '#990000' # freno
 set arrow 4 from "2020/07/02", graph 0 to "2020/07/02", graph 1 nohead lw 5 lc rgb '#990000' # freno
 set arrow 5 from "2020/09/05", graph 0 to "2020/09/05", graph 1 nohead lw 5 lc rgb '#990000' # reapertura continua
+set arrow 6 from "2020/12/05", graph 0 to "2020/12/05", graph 1 nohead lw 5 lc rgb '#990000' # cierre findes
 
 show arrow 
 
@@ -39,6 +40,7 @@ set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.9 left font ",14" tex
 set label 1003 "Freno" at "2020/06/27", graph 0.65 left rotate by 90 font ",16" textcolor rgb "#999999"
 set label 1004 "R. de Mov." at "2020/07/04", graph 0.65 left rotate by 90 font ",14" textcolor rgb "#999999"
 set label 1005 "Reapertura" at "2020/09/07", graph 0.64 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1006 "Cierre en fines de semana" at "2020/12/06", graph 0.24 left rotate by 90 font ",12" textcolor rgb "#999999"
 
 set label 4 "abril" at "2020/04/15", graph 0.25 center font ",22" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
