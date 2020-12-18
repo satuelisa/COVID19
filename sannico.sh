@@ -6,7 +6,7 @@ convert -density 200 sannico.eps sannico.png
 if [ "$(uname)" == "Darwin" ]; then
     open sannico.eps
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
-    gv sannico.eps
+    gv sannico.eps &
 else
     echo 'I have no plans to use this in Win10'
     exit
