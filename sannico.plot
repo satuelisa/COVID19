@@ -52,6 +52,7 @@ set label 10 "octubre" at "2020/10/15", graph 0.15 center font ",22" textcolor r
 set label 11 "noviembre" at "2020/11/15", graph 0.10 center font ",22" textcolor rgb "#cccccc"
 set label 12 "diciembre" at "2020/12/15", graph 0.10 center font ",22" textcolor rgb "#cccccc"
 set label 201 "enero" at "2021/01/15", graph 0.10 center font ",22" textcolor rgb "#cccccc"
+set label 202 "febrero" at "2021/02/15", graph 0.10 center font ",22" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
