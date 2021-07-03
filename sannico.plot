@@ -35,12 +35,12 @@ set arrow 6 from "2020/12/05", graph 0 to "2020/12/05", graph 1 nohead lw 5 lc r
 
 show arrow 
 
-set label 1001 "Jornada Sana" at "2020/03/23", graph 0.5 center rotate by 90 font ",20" textcolor rgb "#999999"
-set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.8 left font ",14" textcolor rgb "#999999"
-set label 1003 "Freno" at "2020/06/27", graph 0.65 left rotate by 90 font ",16" textcolor rgb "#999999"
-set label 1004 "R. de Mov." at "2020/07/04", graph 0.65 left rotate by 90 font ",14" textcolor rgb "#999999"
-set label 1005 "Reapertura" at "2020/09/07", graph 0.64 left rotate by 90 font ",12" textcolor rgb "#999999"
-set label 1006 "Cierre en fines de semana" at "2020/12/04", graph 0.85 right font ",12" textcolor rgb "#999999"
+set label 1001 "Jornada Sana" at "2020/03/26", graph 0.5 center rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.8 left font ",12" textcolor rgb "#999999"
+set label 1003 "Freno" at "2020/06/28", graph 0.65 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1004 "R. de Mov." at "2020/07/06", graph 0.65 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1005 "Reapertura" at "2020/09/08", graph 0.64 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1006 "Cierre en fines de semana" at "2020/12/01", graph 0.85 right font ",12" textcolor rgb "#999999"
 
 set label 4 "abril" at "2020/04/15", graph 0.25 center font ",22" textcolor rgb "#cccccc"
 set label 5 "mayo" at "2020/05/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
@@ -56,6 +56,7 @@ set label 202 "febrero" at "2021/02/15", graph 0.10 center font ",22" textcolor 
 set label 203 "marzo" at "2021/03/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 set label 204 "abril" at "2021/04/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 set label 205 "mayo" at "2021/05/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
+set label 206 "junio" at "2021/06/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 
 set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados" font ",18"
 set yrange [0:y2*1.1]
@@ -68,8 +69,8 @@ last = GPVAL_X_MAX
 
 unset label 1003
 unset label 1004
-set label 1003 "Freno" at "2020/06/27", graph 0.05 left rotate by 90 font ",16" textcolor rgb "#999999"
-set label 1004 "R. de Mov." at "2020/07/04", graph 0.05 left rotate by 90 font ",16" textcolor rgb "#999999"
+set label 1003 "Freno" at "2020/06/28", graph 0.05 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1004 "R. de Mov." at "2020/07/06", graph 0.05 left rotate by 90 font ",12" textcolor rgb "#999999"
 
 set title 'San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: nuevos confirmados' font ",18"
 set yrange [0:y3*1.1]
