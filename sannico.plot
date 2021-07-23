@@ -1,5 +1,5 @@
 set encoding iso_8859_1
-set term postscript eps color size 50cm, 30cm
+set term postscript eps color size 50cm, 50cm
 set output 'sannico.eps'
 set multiplot layout 4, 1
 
@@ -37,8 +37,8 @@ show arrow
 
 set label 1001 "Jornada Sana" at "2020/03/26", graph 0.5 center rotate by 90 font ",12" textcolor rgb "#999999"
 set label 1002 "Nueva Normalidad" at "2020/06/02", graph 0.8 left font ",12" textcolor rgb "#999999"
-set label 1003 "Freno" at "2020/06/28", graph 0.65 left rotate by 90 font ",12" textcolor rgb "#999999"
-set label 1004 "R. de Mov." at "2020/07/06", graph 0.65 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1003 "Freno" at "2020/06/28", graph 0.05 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1004 "R. de Mov." at "2020/07/06", graph 0.05 left rotate by 90 font ",12" textcolor rgb "#999999"
 set label 1005 "Reapertura" at "2020/09/08", graph 0.64 left rotate by 90 font ",12" textcolor rgb "#999999"
 set label 1006 "Cierre en fines de semana" at "2020/12/01", graph 0.85 right font ",12" textcolor rgb "#999999"
 set label 1007 "Nuevas restricciones" at "2021/07/08", graph 0.65 right font ",12" textcolor rgb "#999999"
@@ -59,20 +59,6 @@ set label 204 "abril" at "2021/04/15", graph 0.4 center font ",22" textcolor rgb
 set label 205 "mayo" at "2021/05/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 set label 206 "junio" at "2021/06/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 
-set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados, dibujado semanalmente" font ",18"
-set yrange [0:y2*1.1]
-set ytics 0, 2500
-plot 'sannico.dat' using 1:2 every 7 with linespoints lt 1 lw 3 pt 5 lc rgb '#9cb380'
-show label
-
-first=GPVAL_X_MIN
-last=GPVAL_X_MAX
-set xrange [first:last]
-
-unset label 1003
-unset label 1004
-set label 1003 "Freno" at "2020/06/28", graph 0.05 left rotate by 90 font ",12" textcolor rgb "#999999"
-set label 1004 "R. de Mov." at "2020/07/06", graph 0.05 left rotate by 90 font ",12" textcolor rgb "#999999"
 
 set title 'San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: nuevos confirmados, dibujado cada d\355a' font ",18"
 set yrange [0:y3*1.1]
@@ -80,6 +66,10 @@ set ytics 0, 20
 set ylabel 'Casos'
 plot 'sannico.dat' using 1:3 with linespoints lt -1 lw 3 pt 7 lc rgb '#c59849', \
      y3 with lines lw 4 lc rgb '#00dddd'
+
+first=GPVAL_X_MIN
+last=GPVAL_X_MAX
+set xrange [first:last]
 
 secondsInADay = 24 * 60 * 60
 start = last - 7 * secondsInADay
@@ -97,7 +87,13 @@ set yrange [0:y4*1.1]
 set ytics 0, 200
 plot 'sannico.dat' using 1:4 every 3 with linespoints lt 2 lw 3 pt 5 lc rgb '#522a27', \
           		   y4 with lines lw 4 lc rgb '#00dddd'
+unset label 1003
+unset label 1004
+set label 1003 "Freno" at "2020/06/28", graph 0.65 left rotate by 90 font ",12" textcolor rgb "#999999"
+set label 1004 "R. de Mov." at "2020/07/06", graph 0.65 left rotate by 90 font ",12" textcolor rgb "#999999"
 
-
-
-
+set title "San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: acumulado total de confirmados, dibujado semanalmente" font ",18"
+set yrange [0:y2*1.1]
+set ytics 0, 2500
+plot 'sannico.dat' using 1:2 every 7 with linespoints lt 1 lw 3 pt 5 lc rgb '#9cb380'
+show label
