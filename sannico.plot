@@ -59,7 +59,7 @@ set label 204 "abril" at "2021/04/15", graph 0.4 center font ",22" textcolor rgb
 set label 205 "mayo" at "2021/05/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 set label 206 "junio" at "2021/06/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 set label 207 "julio" at "2021/07/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
-
+set label 208 "agosto" at "2021/08/15", graph 0.4 center font ",22" textcolor rgb "#cccccc"
 
 set title 'San Nicol\341s de los Garza, Nuevo Le\363n, M\351xico: COVID-19: nuevos confirmados, dibujado cada d\355a' font ",18"
 set yrange [0:y3*1.1]
